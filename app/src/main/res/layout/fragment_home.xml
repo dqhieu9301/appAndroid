@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#393053"
+        android:background="#fff"
         android:paddingTop="10dp">
 
         <ScrollView
@@ -42,14 +42,14 @@
                                 android:layout_height="40dp"
                                 android:layout_margin="10dp"
                                 android:layout_marginTop="10dp"
-                                android:background="@drawable/shape_border_and_background_login"
+                                android:background="#EEEEEE"
                                 android:drawableStart="@drawable/search"
                                 android:drawablePadding="8dp"
                                 android:hint="Search for the food you want"
                                 android:inputType="textPersonName"
                                 android:padding="8dp"
-                                android:textColor="#d5d5d5"
-                                android:textColorHint="#d5d5d5"
+                                android:textColor="#000"
+                                android:textColorHint="#000"
                                 android:textSize="18dp"
                                 android:textStyle="italic">
                             </EditText>
@@ -107,7 +107,7 @@
                     android:layout_marginTop="5dp"
                     android:paddingLeft="5dp"
                     android:text="Food Menu"
-                    android:textColor="#ffffff"
+                    android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold"></TextView>
 

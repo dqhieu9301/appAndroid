@@ -15,7 +15,7 @@
             android:id="@+id/layoutToobar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#7286D3"
+            android:background="#ffffff"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingStart="15dp"
@@ -24,19 +24,19 @@
 
             <ImageView
                 android:id="@+id/imageMenu"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:contentDescription="app_name"
                 android:src="@drawable/baseline_menu_24"
-                android:tint="#ffffff"></ImageView>
+                android:tint="#000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="14dp"
                 android:text="Menu"
-                android:textColor="#ffffff"
-                android:textSize="22dp"
+                android:textColor="#000"
+                android:textSize="20dp"
                 android:textStyle="bold"></TextView>
         </LinearLayout>
         <fragment
