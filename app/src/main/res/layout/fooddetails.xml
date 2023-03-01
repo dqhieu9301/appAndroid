@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mi" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_btn"
+        android:text="x"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mì trộn thập cẩm"
+        android:textColor="#000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="343dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Bạn có gì muốn nhắn tới nhà hàng không?"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/note"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26.600đ"
+        android:textColor="#000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/round_btn"
+        android:text="-"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/round_btn"
+        android:text="+"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Chọn topping"
+        android:background="#ff5b4f"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="364dp"
+        android:layout_height="29dp"
+        android:text="Không cay"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách topping có sẵn"
+        android:textColor="#000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:text="Mì thêm"
+        android:layout_width="364dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="364dp"
+        android:layout_height="29dp"
+        android:text="Thêm rau củ"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="364dp"
+        android:layout_height="29dp"
+        android:text="Viên hồ lô"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="364dp"
+        android:layout_height="29dp"
+        android:text="Bò viên"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="364dp"
+        android:layout_height="29dp"
+        android:text="Tôm viên"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+</android.support.constraint.ConstraintLayout>
